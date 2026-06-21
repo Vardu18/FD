@@ -1,17 +1,3 @@
-const music = document.getElementById("music");
-const musicBtn = document.getElementById("musicBtn");
-
-// Music control
-musicBtn.addEventListener("click", () => {
-    if (music.paused) {
-        music.play();
-        musicBtn.innerText = "⏸ Music";
-    } else {
-        music.pause();
-        musicBtn.innerText = "🎵 Music";
-    }
-});
-
 // Floating hearts animation
 function createFloatingHeart() {
     const heart = document.createElement("div");
