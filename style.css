@@ -374,35 +374,6 @@ footer {
     margin-top: 30px;
 }
 
-/* Music Button */
-.music-btn {
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    padding: 15px 25px;
-    border: 2px solid #fbbf24;
-    background: rgba(31, 41, 55, 0.8);
-    color: #fbbf24;
-    border-radius: 50px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    z-index: 100;
-    transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 4px 15px rgba(251, 191, 36, 0.2);
-}
-
-.music-btn:hover {
-    background: rgba(251, 191, 36, 0.2);
-    transform: scale(1.1);
-    box-shadow: 0 6px 25px rgba(251, 191, 36, 0.4);
-}
-
-.music-btn:active {
-    transform: scale(0.95);
-}
-
 /* Responsive Design */
 @media (max-width: 1024px) {
     .timeline-container::before {
